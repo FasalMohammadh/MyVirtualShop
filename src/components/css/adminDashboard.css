@@ -1,0 +1,17 @@
+.adminDash-charts {
+	width: calc(100% - 1em);
+	height: 300px;
+}
+.adminDash-card-title {
+	font-size: clamp(16px, 2vw, 30px);
+}
+.adminDash-card-icon {
+	font-size: clamp(30px, 2.5vw, 50px);
+}
+.adminDash-card-count {
+	font-size: clamp(16px, 2vw, 30px);
+}
+.adminDash-card {
+	padding: 1em;
+	width: calc(100% - 1em);
+}

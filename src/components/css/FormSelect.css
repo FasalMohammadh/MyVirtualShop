@@ -1,0 +1,18 @@
+.formSelect:focus{
+    box-shadow: none !important;
+}
+.formSelect{
+    text-align-last: center;
+    width: 50% !important;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+textarea:focus{
+    outline: none;
+}
+/* i{
+    pointer-events: none;
+} */

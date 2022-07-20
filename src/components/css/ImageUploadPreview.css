@@ -1,0 +1,38 @@
+.previewSmall {
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    /*overflow: hidden;*/
+    width: 100%;
+}
+.previewSmall span {
+    position: relative;
+    /*cursor: pointer;
+    aspect-ratio: 3/2;*/
+    object-fit: contain;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*min-height: 0;*/
+    min-width: 0;
+    width: 100%;
+}
+.previewSmall span img {
+    height: auto;
+    width: 100%;
+}
+.image-upload-preview-lbl {
+    min-height: 350px;
+}
+.iup-tc {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

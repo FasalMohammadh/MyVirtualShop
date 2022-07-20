@@ -1,0 +1,42 @@
+.search:focus + .float-box,
+.float-box:hover{
+    display:block;
+}
+.multi-select-box{
+    position:relative;
+}
+.search:focus{
+    box-shadow:none;
+}
+.search{
+    border: none;
+    width: calc(100% - 40px);
+}
+.float-box{
+    margin-top: 0.5em;
+    position:absolute;
+    right: 0;
+    border-top:none;
+    font-size:1.2em;
+    padding:1em;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.85);
+    backdrop-filter:blur(2px);
+    z-index:1;
+    display:none;
+    max-height:250px;
+    overflow-y:auto;
+}
+.float-box > *{
+    padding:0.5em;
+    border-bottom:1px solid black;
+}
+.float-box:last-child{
+    border-bottom:none;
+}
+.multi-select-box-icon{
+    margin: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}

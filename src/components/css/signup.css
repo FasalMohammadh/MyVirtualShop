@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+.SignupContainer h2 {
+    font-family: "Merriweather", serif;
+}
+
+.signup small {
+    color: #d8000c;
+    font-weight: 600;
+    margin-left: 0.2em;
+    width: fit-content;
+    background-color: #ffbaba;
+    display: block;
+    padding: 0 0.5em;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.signup {
+    padding: 30px;
+    background-color: #ffffff10;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    color: #7eb2dd;
+    overflow: visible;
+}
+.signup > div {
+    margin: 15px auto;
+}
+.signupIcon {
+    margin-top: 50px;
+    display: block;
+    background-color: black;
+    border-radius: 50%;
+    padding: 50px;
+    text-align: center;
+}
+.signupBox {
+    background-color: #0074ba;
+    color: white;
+}
+.SignupContainer {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+.SignupContainer h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+.SignupContainer .icon {
+    font-size: 80px;
+    color: #7eb2dd;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+#signupFrm > div {
+    margin-bottom: 1.5em;
+}
+.sc-input {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+    min-width: 0;
+    max-width: 3em;
+}
+.sc-input:focus-visible{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+/*.fa-xmark{
+    position:absolute;
+    top:0;
+    right:0;
+    cursor:pointer;
+}*/
+.cur-point{
+    cursor:pointer;
+}
+.pop-up-verify{
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
+/*.signupBox > div{
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}*/

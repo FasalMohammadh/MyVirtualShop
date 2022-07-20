@@ -1,0 +1,41 @@
+.admin-side-btn {
+    margin: 0.5em;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+    transition: transform 100ms ease;
+}
+.admin-side-btn:hover,
+.admin-side-btn:focus {
+    transform: scale(1.01);
+}
+.admin-side-btn > p {
+    font-size: clamp(20px, 2vw, 50px);
+    flex-grow: 1;
+}
+@media screen and (min-width: 768px) {
+    .sidebar-btn-container {
+        max-height: 100vh;
+    }
+    .am-content-box {
+        max-height: 100vh;
+        overflow: auto;
+    }
+}
+.am-content-box {
+    background-color: #f4f6fa;
+    min-width: 0;
+    white-space: pre;
+}
+.admin-side-btn .icon-1 {
+    aspect-ratio: 1/1;
+    display: block;
+    font-size: clamp(30px, 2.2vw, 60px);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+    padding: 0.3em;
+}
+.admin-side-btn .icon-2 {
+    font-size: clamp(16px, 1.9vw, 46px);
+}
+
+.sidebarBtnActive {
+    background-color: #f4f6fa;
+}

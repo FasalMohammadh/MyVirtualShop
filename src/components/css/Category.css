@@ -1,0 +1,16 @@
+.category .form-check-label{
+    white-space: nowrap;
+}
+.category > div{
+    padding:10px 30px;
+    padding-left:40px;
+    background-color:rgb(241, 241, 241);
+    border-radius:10px;
+    box-shadow:0 0 3px 5px rgba(241,241,241,0.025);
+}
+.category h4{
+     margin-right:10px;
+}
+*{
+    box-sizing: border-box;
+}

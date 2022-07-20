@@ -1,0 +1,92 @@
+.product-main-details-holder {
+  box-shadow: 0 0 0.2em 0 rgba(255, 255, 255, 0.85);
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1em;
+  margin: auto;
+}
+
+.product-main-details-holder h3,
+.product-main-details-holder h5 {
+  font-family: serif;
+  font-weight: bold;
+  margin: 0.2em 0;
+  background-color: #fafcff;
+  border: 1px solid #dee2e6;
+  width: fit-content;
+  padding: 0.1em 0.5em;
+  border-radius: 10px;
+}
+.product-main-details-holder h5 {
+  color: #f54545;
+}
+.product-main-desc > div {
+  width: fit-content;
+  padding: auto 0.5em;
+}
+.product-main-published {
+  border-top: 2px solid grey;
+  margin: 0.5em 0;
+  text-align: center;
+  font-size: 0.7em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.product-main-desc {
+  background-color: #fafcff;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-top: 0.5em;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.product-main-cat {
+  flex-wrap: wrap;
+  white-space: nowrap;
+  gap: 0.5em;
+}
+.product-main-cat > div {
+  background-color: #fafcff;
+  /*fafcff*/
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  font-size: 20px;
+  padding: 0 0.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.pmd-contact > a,
+.pmd-contact > i {
+  color: #0086e9cc;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  text-decoration: none;
+}
+.pmd-contact > a:hover,
+.pmd-contact > i:hover {
+  color: #0086e9;
+  transform: scale(1.1)translateY(-10%);
+}
+.pmd-contact {
+  display: flex;
+  gap: 1em;
+  padding-bottom:1em;
+  justify-content:space-around;
+}
+@media all and (min-width: 768px) {
+  .pmd-contact {
+    flex-direction: column;
+  }
+    .product-main-details-holder {
+    width: 100%;
+  }
+}
+/* background: no-repeat;
+  background-color: #50e3c2;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(162, 77%, 40%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(198, 100%, 50%) 0, transparent 55%);*/

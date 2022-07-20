@@ -1,0 +1,95 @@
+.error i {
+    color: #ff355b;
+}
+
+.info i {
+    color: #2f86eb;
+}
+
+.warning i {
+    color: #ffc021;
+}
+
+.success i {
+    color: #47d764;
+}
+
+.toast-cus i,
+.icon-text {
+    font-size: clamp(40px, 4vw, 100px);
+}
+
+.info {
+    border-left: 0.2em solid #2f86eb;
+}
+
+.warning {
+    border-left: 0.2em solid #ffc021;
+}
+
+.success {
+    border-left: 0.2em solid #47d764;
+}
+
+.error {
+    border-left: 0.2em solid #ff355b;
+}
+
+.toast-cus {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    border-radius: 0.5em;
+    width: fit-content;
+    /* animation-name: animBounce;
+    animation-duration:0.2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards; */
+    border-bottom: 2px solid #dee2e6;
+    border-top: 2px solid #dee2e6;
+    border-right: 2px solid #dee2e6;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 20;
+}
+
+/* @keyframes animBounce {
+    0%{
+        transform: translateX(110%); 
+    }
+    50% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(-10%);
+    }
+} */
+
+.inner-container p,
+.normal-text {
+    font-size: clamp(12px, 1.5vw, 40px);
+}
+
+.inner-container strong,
+.title-text {
+    font-size: clamp(16px, 2vw, 44px);
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #3d3d38;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(169, 169, 165);
+    margin: 0px auto;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(199, 199, 195);
+}

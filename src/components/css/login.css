@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.login small {
+    color: #D8000C;
+    font-weight: bold;
+    margin-left: 0.2em;
+    width: fit-content;
+    background-color: #FFBABA;
+}
+
+.login {
+    padding: 30px;
+    background: rgba(255, 255, 255,1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.login h2{
+    font-family: 'Merriweather', serif;
+}

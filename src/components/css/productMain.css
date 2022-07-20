@@ -1,0 +1,23 @@
+.product-main-overlay {
+	position: fixed;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.product-main-content-holder {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+.product-main-overlay .fa-close:before{
+	aspect-ratio:1;
+}
+.product-main-overlay .fa-close:hover{
+	transform: rotate(180deg);
+	transition: transform 0.1s linear;
+}
